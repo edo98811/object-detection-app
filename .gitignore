@@ -1,0 +1,8 @@
+venv
+test
+__pycache__
+WG__Auswertung_Template_Airway
+WG__Auswertung_Template_Airway_corrected
+test.json
+
+*.DS_Store
