@@ -1,4 +1,4 @@
 {
-    "source_folder": "/Users/edoardofilippi/Development/PersonalProjects/ObjectDetectionRobert/WG__Auswertung_Template_Airway_corrected",
-    "destination_file": "/Users/edoardofilippi/Development/PersonalProjects/ObjectDetectionRobert/test.json"
+    "source_folder": "/WG__Auswertung_Template_Airway_corrected",
+    "destination_file": "/object_locations.json"
 }

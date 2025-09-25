@@ -100,6 +100,8 @@ class ImageCropperApp:
           self.current_oval_id = None
           
         self.current_oval_id = self.canvas.create_oval(event.x - 3, event.y - 3, event.x + 3, event.y + 3, fill="red")
+        
+        self.input_field.focus_set()
         # self.canvas.bind("<Button-1>", lambda event: None)
 
     def reset_last_object(self):
@@ -146,6 +148,7 @@ class ImageCropperApp:
         # Reset the label text back to normal
         self.input_label.config(text="Insert object name:", fg="black")  
         self.input_field.delete(0, tk.END)
+        self.current_oval_id = None   
         # self.canvas.bind("<Button-1>", self.select_point)
  
     def next_image(self):
