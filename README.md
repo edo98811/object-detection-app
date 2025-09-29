@@ -38,7 +38,7 @@ For most systems, the alias is `python3`.
   - Add the path to the file where the object locations should be saved.
 
 2. **Image Processing**
-  - The app will prompt you to correct all images.
+  - The app will prompt you all images.
   - Click on the object, then insert the label.
   - When all the ojbects have been labeled click on "Save and Next" to proceed to the next image.
   - Repeat until all images are processed.
