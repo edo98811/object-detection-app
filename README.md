@@ -1,4 +1,4 @@
-# Image Perspective Correction App
+# Object detection app
 
 ## Overview
 This App is a Python-based tool that allows you to save the locations of objects in images after correcting their perspective. The results are saved in a JSON file. 
