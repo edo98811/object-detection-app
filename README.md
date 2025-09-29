@@ -20,8 +20,7 @@ For most systems, the alias is `python3`.
 
    ```sh
    python3 -m venv venv
-   . venv/bin/activate  # On macOS/Linux
-   venv\bin\activate  # On Windows
+   venv/bin/activate  
    pip install -r requirements.txt
    ```
 
